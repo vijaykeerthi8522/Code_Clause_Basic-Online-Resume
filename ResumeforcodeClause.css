@@ -1,0 +1,128 @@
+body {
+    background-image: url(./image/flower-colors.jpg);
+    background-color: white;
+}
+
+.container {
+    background-color: #dae0de;
+    margin: 3px;
+    padding: 3px;
+    display: flex;
+}
+
+/* style the left side  */
+.left-part {
+    width: 30%;
+    min-width: 300px;
+    text-align: center;
+}
+
+.image img {
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 3px solid;
+    height: 90px;
+    width: 90px;
+}
+
+.adress,
+.dop {
+    display: flex;
+    padding-left: 5px;
+}
+
+.adress-info,
+.dop-info {
+    padding-top: 23px;
+    padding-left: 10px;
+}
+
+.phone,
+.email,
+.website,
+.social-media {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.website {
+    margin-bottom: 50px;
+}
+
+.social-media>* {
+    margin-bottom: 12px;
+}
+
+.phone>h5,
+.email>h5,
+.website>h5 {
+    margin-top: -20px;
+}
+
+/* style the svg line  */
+.svg-part {
+    width: 40px;
+}
+
+/* style the right part  */
+.aboutme {
+    margin-bottom: 20px;
+}
+
+.aboutme h2 {}
+
+.skills,
+.education,
+.experience,
+.skills,
+.achievement {
+    margin-top: -10px;
+}
+
+.experience-info,
+.education-info {
+    display: flex;
+    margin-top: -30px;
+}
+
+.experience-info>h5,
+.education-info>h5 {
+    margin-right: 20px;
+    width: 40px;
+}
+
+/* style the skills field */
+.skills {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills1,
+.skills2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -40px;
+}
+
+.skills2 {
+    padding-right: 70px;
+}
+
+.skills-row1 h3,
+.skills-row2 h3 {
+    margin-bottom: -25px;
+}
+
+.svg {
+    width: 100%;
+    margin-right: 60px;
+}
+
+.achievement {
+    display: flex;
+    margin-top: -25px;
+}
+
+.achievement h4 {
+    margin-bottom: -10px;
+}
